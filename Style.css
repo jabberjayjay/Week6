@@ -39,3 +39,29 @@ a {
     text-align: left;
 }
 
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .header{
+        max-width: 100px;
+        flex-direction: column;
+    }
+
+
+    .column {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+
+   
+    .column {
+        text-align: center;
+    }
+}
