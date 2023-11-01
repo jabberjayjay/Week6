@@ -1,0 +1,49 @@
+body {
+    background-color: #333; /* Background color */
+    font-family: 'Courier New', monospace; /* Font family */
+    text-align: center; /* Center-align text */
+    color: white; /* Text color */
+}
+
+h1 {
+    color: #fcfcfc; /* Header text color */
+}
+
+h3 {
+    color: #555; /* Subheader text color */
+}
+
+h2 {
+    color: #007bff; /* Section heading text color */
+}
+
+ul {
+    list-style: none; /* Remove default list bullet points */
+    padding: 0; /* Remove padding */
+    text-align: left; /* Left-align text in unordered list */
+}
+
+a {
+    color: #007bff; /* Link text color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.column {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+    .column {
+        text-align: center;
+    }
+}
